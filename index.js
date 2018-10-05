@@ -11,7 +11,7 @@ hexo.extend.tag.register('passport', function(args, content){
     var percentage = (stamps / total * 100).toFixed(0);
 
     var completionRender = `<p class='passport-completion'>
-                Completed: ${stamps} of ${total}
+                Visited: ${stamps} of ${total}
                 <span class="percentage">${percentage}</span>
             </p>`;
 
